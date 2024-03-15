@@ -51,7 +51,7 @@
     function generateRandomFreelancer() {
       const randomName = names[Math.floor(Math.random() * names.length)];
       const randomOccupation = occupations[Math.floor(Math.random() * occupations.length)];
-      const randomPrice = Math.floor(Math.random() * 100) + 1; // Random price between 1 and 100
+      const randomPrice = Math.floor(Math.random() * 100) + 1;
       return { name: randomName, occupation: randomOccupation, price: randomPrice };
     }
   
